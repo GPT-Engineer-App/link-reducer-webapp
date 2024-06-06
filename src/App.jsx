@@ -3,7 +3,7 @@ import Index from "./pages/Index.jsx";
 import Login from "./pages/Login.jsx";
 import UserProfile from "./pages/UserProfile.jsx";
 import About from "./pages/About.jsx";
-import Alarm from "./pages/Alarm.jsx";
+import ShortenLink from "./pages/ShortenLink.jsx";
 import Register from "./pages/Register.jsx";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/user-profile" element={<UserProfile />} />
         <Route path="/about" element={<About />} />
-        <Route path="/alarm" element={<Alarm />} />
+        <Route path="/shorten-link" element={<ShortenLink />} />
         <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
